@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    apple
+    <!-- <img src="./assets/logo.png">
     <p>导航：
       <router-link to="/">首页</router-link> |
       <router-link to="/params/198/qspinach website is very good">params</router-link> |
@@ -12,11 +13,11 @@
       <router-link to="/count">测试Vuex</router-link>
       <button @click="goback">后退</button>
       <button @click="goHome">回到首页</button>
-    </p>
+    </p> -->
     <!--<p>{{ $route.name }}</p>-->
-    <transition name="fade" mode="out-in">
+    <!-- <transition name="fade" mode="out-in">
       <router-view/>
-    </transition>
+    </transition> -->
   </div>
 </template>
 
