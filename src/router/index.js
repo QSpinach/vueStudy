@@ -6,6 +6,7 @@ import Hi1 from '@/components/Hi1'
 import Hi2 from '@/components/Hi2'
 import Params from '@/components/Params'
 import Error from '@/components/Error'
+import Count from '@/components/Count'
 
 Vue.use(Router)
 
@@ -44,6 +45,11 @@ export default new Router({
     {
       path: '*',
       component: Error
+    },
+    {
+      path: '/count',
+      name: 'Count',
+      component: Count,
     }
   ],
   scrollBehavior (to, from, savedPosition) {

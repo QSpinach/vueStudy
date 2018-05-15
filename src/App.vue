@@ -9,10 +9,11 @@
       <router-link :to="{name: 'hi1', params:{ username: 'syq' }}">hi页面1</router-link> |
       <router-link to="/hi/hi2">hi页面2</router-link> |
       <router-link to="/bbbbbb">我是瞎写的</router-link>
+      <router-link to="/count">测试Vuex</router-link>
       <button @click="goback">后退</button>
       <button @click="goHome">回到首页</button>
     </p>
-    <p>{{ $route.name }}</p>
+    <!--<p>{{ $route.name }}</p>-->
     <transition name="fade" mode="out-in">
       <router-view/>
     </transition>
