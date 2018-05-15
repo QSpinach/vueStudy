@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <button @click="goHome">回到首页啊h</button>
+    <button @click="goHome">回到首页啊</button>
   </div>
 </template>
 
